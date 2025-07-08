@@ -1,0 +1,12 @@
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\bin\Debug\Personal_Finanace_Context.dll.config
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\bin\Debug\Personal_Finanace_Context.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\bin\Debug\Personal_Finanace_Context.pdb
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\bin\Debug\EntityFramework.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\bin\Debug\EntityFramework.SqlServer.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\bin\Debug\EntityFramework.xml
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\bin\Debug\EntityFramework.SqlServer.xml
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\obj\Debug\Personal_Finanace_Context.csproj.AssemblyReference.cache
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\obj\Debug\Personal_Finanace_Context.csproj.CoreCompileInputs.cache
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\obj\Debug\Personal.E93D544E.Up2Date
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\obj\Debug\Personal_Finanace_Context.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finanace_Context\obj\Debug\Personal_Finanace_Context.pdb

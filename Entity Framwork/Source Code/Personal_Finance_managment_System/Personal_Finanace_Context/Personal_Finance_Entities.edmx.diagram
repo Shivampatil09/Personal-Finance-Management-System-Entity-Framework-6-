@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="943ae9e612434825b906bd001ea7cbbd" Name="Diagram1">
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.account" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.budget" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.class" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.expens" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.income" Width="1.5" PointX="8.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.income_source" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.librarye" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.target_amount" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.transaction" Width="1.5" PointX="5.25" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.user" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__account__user_id__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__expenses__accoun__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__income__account___778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__transacti__accou__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__budget__user_id__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__libraryes__stude__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__expenses__user_i__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__income__user_id__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__income_so__user___02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__target_am__user___08B54D69" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Personal_Finance_Management_SystemModel.expense_category" Width="1.5" PointX="3" PointY="19.625" />
+        <AssociationConnector Association="Personal_Finance_Management_SystemModel.FK__expense_c__user___6FE99F9F" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

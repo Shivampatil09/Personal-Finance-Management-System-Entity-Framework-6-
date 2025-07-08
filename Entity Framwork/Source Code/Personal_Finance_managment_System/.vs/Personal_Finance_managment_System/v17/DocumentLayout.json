@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|d:\\.net project\\personal finance managment system\\entity framwork\\source code\\personal_finance_managment_system\\personal_finance__mangmentr_mvc\\views\\account\\accountviwe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\account\\accountviwe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\views\\account\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\account\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\views\\budget\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\budget\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\controllers\\expenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\controllers\\expenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\views\\income\\incomeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\income\\incomeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\controllers\\budgetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\personal_finance__mangmentr_mvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B992B453-6C1F-4FA0-9BBE-F0BA1A177748}|Personal_Finance__Mangmentr_MVC\\Personal_Finance__Mangmentr_MVC.csproj|solutionrelative:personal_finance__mangmentr_mvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Budget\\Report.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Budget\\Report.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Budget\\Report.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Budget\\Report.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T03:22:27.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Account\\Report.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Account\\Report.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Account\\Report.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Account\\Report.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T01:43:06.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BudgetController.cs",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Controllers\\BudgetController.cs",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Controllers\\BudgetController.cs",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Controllers\\BudgetController.cs",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Controllers\\BudgetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:34:11.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExpensController.cs",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Controllers\\ExpensController.cs",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Controllers\\ExpensController.cs",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Controllers\\ExpensController.cs",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Controllers\\ExpensController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T01:33:50.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T05:29:06.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T01:22:46.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T13:10:36.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T13:10:35.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountViwe.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Account\\AccountViwe.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Account\\AccountViwe.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Account\\AccountViwe.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Account\\AccountViwe.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T05:31:02.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IncomeView.cshtml",
+              "DocumentMoniker": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Income\\IncomeView.cshtml",
+              "RelativeDocumentMoniker": "Personal_Finance__Mangmentr_MVC\\Views\\Income\\IncomeView.cshtml",
+              "ToolTip": "D:\\.NET Project\\Personal Finance Managment System\\Entity Framwork\\Source Code\\Personal_Finance_managment_System\\Personal_Finance__Mangmentr_MVC\\Views\\Income\\IncomeView.cshtml",
+              "RelativeToolTip": "Personal_Finance__Mangmentr_MVC\\Views\\Income\\IncomeView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T02:37:33.885Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 46,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

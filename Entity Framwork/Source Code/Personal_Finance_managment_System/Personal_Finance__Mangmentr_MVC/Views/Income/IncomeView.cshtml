@@ -1,0 +1,41 @@
+﻿@model Personal_Finance_Model.MasterModel.incomeModel
+@using (Html.BeginForm("SaveOrUpdate", "Income", FormMethod.Post))
+{
+    <br>
+    <h2 class="bg-dark text-white text-center">Income</h2>
+    <div class="row">
+        @Html.HiddenFor(m => m.account_id)
+        <div class="col-md-3">
+            <label>Income Date</label>
+            @Html.TextBoxFor(m => m.income_date, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        </div>
+        <div class="col-md-3">
+            <label>Amount</label>
+            @Html.TextBoxFor(m => m.amount, new { @class = "form-control" })
+        </div>
+        <div class="col-md-3">
+            <label>Income Source</label>
+            @Html.TextBoxFor(m => m.income_source, new { @class = "form-control" })
+        </div>
+        <div class="col-md-3">
+            <label>User ID</label>
+            @Html.TextBoxFor(m => m.user_id, new { @class = "form-control" })
+        </div>
+
+        <div class="col-md-3">
+            <label>Account ID</label>
+            @Html.TextBoxFor(m => m.account_id, new { @class = "form-control" })
+        </div>
+
+
+
+
+
+
+    </div>
+    <div class="">
+        <button type="submit" class="btn btn-outline-success mt-2">Submit</button>
+        @Html.ActionLink("Report", "Report", null, new { @class = "btn btn-outline-success mt-2" })
+    </div>
+
+}

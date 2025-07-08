@@ -1,0 +1,42 @@
+﻿@model Personal_Finance_Model.MasterModel.expensModel
+@using (Html.BeginForm("saveOrUpdate", "Expens", FormMethod.Post))
+{
+    <br>
+    <h2 class="bg-dark text-white text-center">Expence Information</h2>
+    <div class="row">
+        @Html.HiddenFor(m => m.expense_id)
+        <div class="col-md-3">
+            <label>User ID</label>
+            @Html.TextBoxFor(m => m.user_id, new { @class = "form-control"})
+        </div>   
+
+        <div class="col-md-3">
+            <label>Account ID</label>
+            @Html.TextBoxFor(m => m.account_id, new { @class = "form-control"})
+        </div>  
+
+        <div class="col-md-3">
+            <label>Expence Date</label>
+            @Html.TextBoxFor(m => m.expense_date, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+        </div>  
+
+        <div class="col-md-3">
+            <label>Expence Category</label>
+            @Html.TextBoxFor(m => m.expence_category, new { @class = "form-control"})
+        </div>  
+
+        <div class="col-md-3">
+            <label>Remark</label>
+            @Html.TextBoxFor(m => m.remark, new { @class = "form-control"})
+        </div>   
+
+        <div class="col-md-3">
+            <label>Amount</label>
+            @Html.TextBoxFor(m => m.ammount, new { @class = "form-control"})
+        </div>
+    </div>
+        <div class="">
+            <button type="submit" class="btn btn-outline-success mt-2">Submit</button>
+            @Html.ActionLink("Report", "Report", null, new { @class = "btn btn-outline-success mt-2" })
+        </div>
+        }

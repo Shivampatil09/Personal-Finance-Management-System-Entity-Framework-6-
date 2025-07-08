@@ -1,0 +1,23 @@
+﻿@model List<Personal_Finanace_Context.income_source>
+<form>
+    <label>Income Source</label>
+</form>
+<table class="table table-bordered"
+       <tr>
+           <th>Income Source Id</th>
+           <th>User Id</th>
+           <th>Income Source Name</th>
+       </tr>
+@foreach(var item in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(m => item.source_id)</td>
+        <td>@Html.DisplayFor(m => item.user_id)</td>
+        <td>@Html.DisplayFor(m => item.source_name)</td>
+        <td>@Html.ActionLink("Edit", "Edit", new { id = item.source_id}, new { @class = "btn btn-outline-success mt-2" })</td>
+        <td>@Html.ActionLink("Delete", "Delete", new { id = item.source_id}, new { @class = "btn btn-outline-success mt-2" })</td>
+    </tr>
+}
+<div class="">
+    @Html.ActionLink("Back", "IncomeSourceView", null, new { @class = "btn btn-outline-success mt-2" })
+</div>

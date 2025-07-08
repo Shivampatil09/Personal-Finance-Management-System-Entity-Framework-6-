@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Personal_Finance_Management_SystemModelStoreContainer" CdmEntityContainer="Personal_Finance_Management_SystemEntities">
+    <EntitySetMapping Name="accounts">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.account">
+        <MappingFragment StoreEntitySet="account">
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="account_type" ColumnName="account_type" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+          <ScalarProperty Name="liabilities" ColumnName="liabilities" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="budgets">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.budget">
+        <MappingFragment StoreEntitySet="budget">
+          <ScalarProperty Name="budget_id" ColumnName="budget_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="expense_category" ColumnName="expense_category" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="classes">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.class">
+        <MappingFragment StoreEntitySet="class">
+          <ScalarProperty Name="student_id" ColumnName="student_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="roll_no" ColumnName="roll_no" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="expenses">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.expens">
+        <MappingFragment StoreEntitySet="expenses">
+          <ScalarProperty Name="expense_id" ColumnName="expense_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+          <ScalarProperty Name="expense_date" ColumnName="expense_date" />
+          <ScalarProperty Name="expence_category" ColumnName="expence_category" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="ammount" ColumnName="ammount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="incomes">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.income">
+        <MappingFragment StoreEntitySet="income">
+          <ScalarProperty Name="income_id" ColumnName="income_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+          <ScalarProperty Name="income_date" ColumnName="income_date" />
+          <ScalarProperty Name="income_source" ColumnName="income_source" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="income_source">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.income_source">
+        <MappingFragment StoreEntitySet="income_source">
+          <ScalarProperty Name="source_id" ColumnName="source_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="source_name" ColumnName="source_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="libraryes">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.librarye">
+        <MappingFragment StoreEntitySet="libraryes">
+          <ScalarProperty Name="Roll_no" ColumnName="Roll_no" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="student_id" ColumnName="student_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="target_amount">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.target_amount">
+        <MappingFragment StoreEntitySet="target_amount">
+          <ScalarProperty Name="target_id" ColumnName="target_id" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="transactions">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.transaction">
+        <MappingFragment StoreEntitySet="transactions">
+          <ScalarProperty Name="transaction_id" ColumnName="transaction_id" />
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="statement" ColumnName="statement" />
+          <ScalarProperty Name="time" ColumnName="time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="expense_category">
+      <EntityTypeMapping TypeName="Personal_Finance_Management_SystemModel.expense_category">
+        <MappingFragment StoreEntitySet="expense_category">
+          <ScalarProperty Name="category_name" ColumnName="category_name" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

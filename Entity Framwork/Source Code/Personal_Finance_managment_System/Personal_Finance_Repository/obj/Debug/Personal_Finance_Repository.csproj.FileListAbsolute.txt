@@ -1,0 +1,17 @@
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finance_Repository.dll.config
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finance_Repository.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finance_Repository.pdb
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\EntityFramework.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finanace_Context.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finance_Model.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finanace_Context.pdb
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finanace_Context.dll.config
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\Personal_Finance_Model.pdb
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\EntityFramework.xml
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\obj\Debug\Personal_Finance_Repository.csproj.AssemblyReference.cache
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\obj\Debug\Personal_Finance_Repository.csproj.CoreCompileInputs.cache
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\obj\Debug\Personal.730EA2AE.Up2Date
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\obj\Debug\Personal_Finance_Repository.dll
+D:\.NET Project\Personal Finance Managment System\Entity Framwork\Source Code\Personal_Finance_managment_System\Personal_Finance_Repository\obj\Debug\Personal_Finance_Repository.pdb

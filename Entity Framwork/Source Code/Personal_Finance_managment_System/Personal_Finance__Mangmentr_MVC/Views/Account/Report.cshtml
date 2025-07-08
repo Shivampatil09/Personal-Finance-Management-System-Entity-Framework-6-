@@ -1,0 +1,26 @@
+﻿@model List<Personal_Finanace_Context.account>
+<form>
+    <label></label>
+</form>
+
+<table class="table table-bordered"
+       <tr>
+           <th>User Id</th>
+           <th>Account Name</th>
+           <th>Current Balance</th>
+           <th>Expenses</th>
+       </tr>
+@foreach(var item in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(m => item.user_id)</td>
+        <td>@Html.DisplayFor(m => item.account_type)</td>
+        <td>@Html.DisplayFor(m => item.balance)</td>
+        <td>@Html.DisplayFor(m => item.liabilities)</td>
+        <td>@Html.ActionLink("Edit", "Edit", new { id = item.account_id}, new { @class = "btn btn-outline-success mt-2" })</td>
+        <td>@Html.ActionLink("Delete", "Delete", new { id = item.account_id}, new { @class = "btn btn-outline-success mt-2" })</td>
+    </tr>
+}
+<div class="">
+    @Html.ActionLink("Back", "AccountViwe", null, new { @class = "btn btn-outline-success mt-2" })
+</div>

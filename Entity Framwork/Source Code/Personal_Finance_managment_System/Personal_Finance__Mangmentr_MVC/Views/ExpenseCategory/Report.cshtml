@@ -1,0 +1,24 @@
+﻿@model List<Personal_Finanace_Context.expense_category>
+<form>
+    <label></label>
+</form>
+
+<table class="table table-bordered"
+       <tr>
+           <th>Category Id</th>
+           <th>User Id</th>
+           <th>Category Name</th>
+       </tr>
+@foreach(var item in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(m => item.category_id)</td>
+        <td>@Html.DisplayFor(m => item.user_id)</td>
+        <td>@Html.DisplayFor(m => item.category_name)</td>
+        <td>@Html.ActionLink("Edit", "Edit", new { id = item.category_id}, new { @class = "btn btn-outline-success mt-2" })
+        @Html.ActionLink("Delete", "Delete", new { id = item.category_id}, new { @class = "btn btn-outline-success mt-2" })</td>
+    </tr>
+}
+<div class="">
+    @Html.ActionLink("Back", "ExpenseCategoryView", null, new { @class = "btn btn-outline-success mt-2" })
+</div>

@@ -1,0 +1,6 @@
+CREATE TABLE [user] ( 
+user_id INT IDENTITY(1,1) PRIMARY KEY, 
+name VARCHAR(100) NULL, 
+username VARCHAR(50) NULL UNIQUE, 
+password VARCHAR(100) NULL, 
+);

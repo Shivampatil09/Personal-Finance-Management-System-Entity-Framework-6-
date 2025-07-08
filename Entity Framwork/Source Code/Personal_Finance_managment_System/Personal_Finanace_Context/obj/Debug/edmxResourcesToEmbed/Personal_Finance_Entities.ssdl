@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Personal_Finance_Management_SystemModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="account">
+    <Key>
+      <PropertyRef Name="account_id" />
+    </Key>
+    <Property Name="account_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="account_type" Type="nvarchar" MaxLength="50" />
+    <Property Name="balance" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="liabilities" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="budget">
+    <Key>
+      <PropertyRef Name="budget_id" />
+    </Key>
+    <Property Name="budget_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="expense_category" Type="nvarchar" MaxLength="100" />
+    <Property Name="amount" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="class">
+    <Key>
+      <PropertyRef Name="student_id" />
+    </Key>
+    <Property Name="student_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="roll_no" Type="int" />
+  </EntityType>
+  <EntityType Name="expense_category">
+    <Key>
+      <PropertyRef Name="category_id" />
+    </Key>
+    <Property Name="category_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="category_name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="expenses">
+    <Key>
+      <PropertyRef Name="expense_id" />
+    </Key>
+    <Property Name="expense_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="account_id" Type="int" />
+    <Property Name="expense_date" Type="date" />
+    <Property Name="expence_category" Type="nvarchar" MaxLength="100" />
+    <Property Name="remark" Type="nvarchar" MaxLength="100" />
+    <Property Name="ammount" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="income">
+    <Key>
+      <PropertyRef Name="income_id" />
+    </Key>
+    <Property Name="income_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="account_id" Type="int" />
+    <Property Name="income_date" Type="date" />
+    <Property Name="income_source" Type="nvarchar" MaxLength="100" />
+    <Property Name="amount" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="income_source">
+    <Key>
+      <PropertyRef Name="source_id" />
+    </Key>
+    <Property Name="source_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="source_name" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="libraryes">
+    <Key>
+      <PropertyRef Name="Roll_no" />
+    </Key>
+    <Property Name="Roll_no" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="student_id" Type="int" />
+  </EntityType>
+  <EntityType Name="target_amount">
+    <Key>
+      <PropertyRef Name="target_id" />
+    </Key>
+    <Property Name="target_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" />
+    <Property Name="amount" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="transactions">
+    <Key>
+      <PropertyRef Name="transaction_id" />
+    </Key>
+    <Property Name="transaction_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="account_id" Type="int" />
+    <Property Name="type" Type="nvarchar" MaxLength="10" />
+    <Property Name="amount" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="statement" Type="nvarchar" MaxLength="255" />
+    <Property Name="time" Type="datetime" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="100" />
+    <Property Name="username" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK__account__user_id__534D60F1">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="account" Type="Self.account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="account">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__budget__user_id__5629CD9C">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="budget" Type="Self.budget" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="budget">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__expense_c__user___6FE99F9F">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="expense_category" Type="Self.expense_category" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="expense_category">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__expenses__accoun__5BE2A6F2">
+    <End Role="account" Type="Self.account" Multiplicity="0..1" />
+    <End Role="expenses" Type="Self.expenses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="account">
+        <PropertyRef Name="account_id" />
+      </Principal>
+      <Dependent Role="expenses">
+        <PropertyRef Name="account_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__expenses__user_i__5AEE82B9">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="expenses" Type="Self.expenses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="expenses">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__income__account___778AC167">
+    <End Role="account" Type="Self.account" Multiplicity="0..1" />
+    <End Role="income" Type="Self.income" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="account">
+        <PropertyRef Name="account_id" />
+      </Principal>
+      <Dependent Role="income">
+        <PropertyRef Name="account_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__income__user_id__76969D2E">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="income" Type="Self.income" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="income">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__income_so__user___02FC7413">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="income_source" Type="Self.income_source" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="income_source">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__libraryes__stude__05D8E0BE">
+    <End Role="class" Type="Self.class" Multiplicity="0..1" />
+    <End Role="libraryes" Type="Self.libraryes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="class">
+        <PropertyRef Name="student_id" />
+      </Principal>
+      <Dependent Role="libraryes">
+        <PropertyRef Name="student_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__target_am__user___08B54D69">
+    <End Role="user" Type="Self.user" Multiplicity="0..1" />
+    <End Role="target_amount" Type="Self.target_amount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="target_amount">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__transacti__accou__0B91BA14">
+    <End Role="account" Type="Self.account" Multiplicity="0..1" />
+    <End Role="transactions" Type="Self.transactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="account">
+        <PropertyRef Name="account_id" />
+      </Principal>
+      <Dependent Role="transactions">
+        <PropertyRef Name="account_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Personal_Finance_Management_SystemModelStoreContainer">
+    <EntitySet Name="account" EntityType="Self.account" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="budget" EntityType="Self.budget" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="class" EntityType="Self.class" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="expense_category" EntityType="Self.expense_category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="expenses" EntityType="Self.expenses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="income" EntityType="Self.income" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="income_source" EntityType="Self.income_source" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="libraryes" EntityType="Self.libraryes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="target_amount" EntityType="Self.target_amount" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="transactions" EntityType="Self.transactions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__account__user_id__534D60F1" Association="Self.FK__account__user_id__534D60F1">
+      <End Role="user" EntitySet="user" />
+      <End Role="account" EntitySet="account" />
+    </AssociationSet>
+    <AssociationSet Name="FK__budget__user_id__5629CD9C" Association="Self.FK__budget__user_id__5629CD9C">
+      <End Role="user" EntitySet="user" />
+      <End Role="budget" EntitySet="budget" />
+    </AssociationSet>
+    <AssociationSet Name="FK__expense_c__user___6FE99F9F" Association="Self.FK__expense_c__user___6FE99F9F">
+      <End Role="user" EntitySet="user" />
+      <End Role="expense_category" EntitySet="expense_category" />
+    </AssociationSet>
+    <AssociationSet Name="FK__expenses__accoun__5BE2A6F2" Association="Self.FK__expenses__accoun__5BE2A6F2">
+      <End Role="account" EntitySet="account" />
+      <End Role="expenses" EntitySet="expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__expenses__user_i__5AEE82B9" Association="Self.FK__expenses__user_i__5AEE82B9">
+      <End Role="user" EntitySet="user" />
+      <End Role="expenses" EntitySet="expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__income__account___778AC167" Association="Self.FK__income__account___778AC167">
+      <End Role="account" EntitySet="account" />
+      <End Role="income" EntitySet="income" />
+    </AssociationSet>
+    <AssociationSet Name="FK__income__user_id__76969D2E" Association="Self.FK__income__user_id__76969D2E">
+      <End Role="user" EntitySet="user" />
+      <End Role="income" EntitySet="income" />
+    </AssociationSet>
+    <AssociationSet Name="FK__income_so__user___02FC7413" Association="Self.FK__income_so__user___02FC7413">
+      <End Role="user" EntitySet="user" />
+      <End Role="income_source" EntitySet="income_source" />
+    </AssociationSet>
+    <AssociationSet Name="FK__libraryes__stude__05D8E0BE" Association="Self.FK__libraryes__stude__05D8E0BE">
+      <End Role="class" EntitySet="class" />
+      <End Role="libraryes" EntitySet="libraryes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__target_am__user___08B54D69" Association="Self.FK__target_am__user___08B54D69">
+      <End Role="user" EntitySet="user" />
+      <End Role="target_amount" EntitySet="target_amount" />
+    </AssociationSet>
+    <AssociationSet Name="FK__transacti__accou__0B91BA14" Association="Self.FK__transacti__accou__0B91BA14">
+      <End Role="account" EntitySet="account" />
+      <End Role="transactions" EntitySet="transactions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
